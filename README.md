@@ -10,7 +10,7 @@ Final Assignment
 Github Assignment
 
 ### Files used
-Include the files used
+Rideshare data files for the cities of Chicago, New York City, and Washington DC
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Tutoring help of Elliot Levy
