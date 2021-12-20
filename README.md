@@ -7,7 +7,7 @@
 Final Assignment
 
 ### Description
-Describe what your project is about and what it does
+Github Assignment
 
 ### Files used
 Include the files used
