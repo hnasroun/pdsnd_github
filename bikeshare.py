@@ -20,8 +20,7 @@ def get_filters():
     goodInput = False
     good_city_inputs = ['chicago', 'new york city', 'washington']
     while not goodInput:  # not False -> True
-        city = input("Enter the city you wish to analyze (chicago, new york city, or washington)\n")  # hello, chiqago
-        city = city.lower()
+        city = input("Enter the city you wish to analyze (chicago, new york city, or washington)\n").lower() # hello, chiqago
         if city in good_city_inputs:
             goodInput = True
         else:
@@ -31,8 +30,7 @@ def get_filters():
     good_month_inputs = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september',
                          'october', 'november', 'december', 'all']
     while not goodInput:  # not False -> True
-        month = input("Enter the month you wish to analyze (january...december or 'all')\n")
-        month = month.lower()
+        month = input("Enter the month you wish to analyze (january...december or 'all')\n").lower()
         if month in good_month_inputs:
             goodInput = True
         else:
@@ -41,8 +39,7 @@ def get_filters():
     goodInput = False
     good_day_inputs = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']
     while not goodInput:  # not False -> True
-        day = input("Enter the day you wish to analyze (monday...friday or all)\n")
-        day = day.lower()
+        day = input("Enter the day you wish to analyze (monday...friday or all)\n").lower()
         if day in good_day_inputs:
             goodInput = True
         else:
